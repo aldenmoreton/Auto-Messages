@@ -33,12 +33,8 @@ def main():
 	pyautogui.FAILSAFE = True
 	pyautogui.PAUSE = 0
 
-	# victim = sys.argv[1:-1]
-	# victim = ' '.join(victim)
-	# script = open(sys.argv[-1], 'r').read()
-
 	victim = input("Who is the target? ")
-	script = open("content/" + input("What is the song? ")).read()
+	script = open(input("What is the song? ")).read()
 
 	switch_to_messages()
 	write_messages(victim, script)
