@@ -33,11 +33,11 @@ def main():
 	pyautogui.FAILSAFE = True
 	pyautogui.PAUSE = 0
 
-	victim = input("Who is the target? ")
-	script = open(input("What is the song? ")).read()
+	recipient = input("Who is the recipient? ")
+	script = open(input("What is the message file? ")).read()
 
 	switch_to_messages()
-	write_messages(victim, script)
+	write_messages(recipient, script)
 
 if __name__ == '__main__':
 	main()
