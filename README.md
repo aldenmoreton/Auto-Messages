@@ -13,4 +13,4 @@ $ What is the message file? test.txt
 ```
 **Expected Behavior**:
 - Switch to the messages app
-- Send the contence of "test.txt" to "Joe Doe" line by line
+- Send the contence of "test.txt" to "John Doe" line by line
